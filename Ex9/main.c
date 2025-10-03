@@ -2,8 +2,8 @@
 
 int main() {
     int dia, mes, ano;
-    printf("Introduza uma data (dd/mm/aaaa): ");
-    scanf("%d/%d/%d", &dia, &mes, &ano);
-    printf("Data lida: %02d/%02d/%04d\n", dia, mes, ano);
+    printf("Introduza uma data (aaa/mm/dd): ");
+    scanf("%d/%d/%d", &ano, &mes, &dia);
+    printf("Data lida: %04d/%02d/%02d\n", ano, mes, dia);
     return 0;
 }
